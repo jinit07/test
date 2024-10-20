@@ -1,0 +1,37 @@
+/* src/components/MySales/MySales.css */
+.mysales-container {
+    background-color: #001f3f; /* Navy Blue background */
+    color: #FFD700; /* Golden text */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    background-color: #00274d; /* Darker navy for input */
+    color: #FFD700;
+  }
+  
+  .submit-button {
+    background-color: #FFD700;
+    color: #001f3f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #b39c00; /* Darker gold on hover */
+  }
+  
+  .error-message {
+    color: red;
+  }
+  

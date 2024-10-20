@@ -1,0 +1,25 @@
+body {
+  transition: background-color 0.5s ease;
+}
+
+body.dark {
+  background-color: #1a202c;
+  color: #f7fafc;
+}
+
+body.light {
+  background-color: #ffffff;
+  color: #1a202c;
+}
+/* Global styles */
+:root {
+  --bg-color: white;
+  --border-color: lightgray;
+  --text-color: black;
+}
+
+[data-theme='dark'] {
+  --bg-color: #333;
+  --border-color: #444;
+  --text-color: white;
+}

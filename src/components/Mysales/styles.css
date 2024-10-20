@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    border: 5px solid gold; /* Golden borders */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .data-display, .result-display {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #002147; /* Navblue border */
+    border-radius: 5px;
+    background-color: #e0f7fa;
+  }
+  
+  .submit-button {
+    background-color: #002147; /* Navblue background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #004080; /* Darker blue on hover */
+  }
+  
